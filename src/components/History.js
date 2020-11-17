@@ -2,15 +2,6 @@ import React from 'react';
 import './History.css';
 
 
-function isOverflowedX(element) {
-    return element.scrollWidth > element.clientWidth;
-}
-
-function isOverflowedY(element) {
-    return element.scrollHeight > element.clientHeight;
-}
-
-
 export default class History extends React.Component {
     constructor(props) {
         super(props);
